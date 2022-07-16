@@ -92,10 +92,17 @@ html, body {
 }
 
 /* Фильтр */
+.close {
+    display: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
 .filter {
     border: 1px solid rgb(138, 138, 138);
-    height: 100%;
     padding: 25px 10px 25px 10px;
+    position: relative;
 }
 
 #filter-model {

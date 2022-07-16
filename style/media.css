@@ -68,9 +68,26 @@
         flex-direction: column;
     }
 
+    .close {
+        display: block;
+        background-color: red;
+        color: #ffffff;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
     .filter {
         display: none;
         margin-bottom: 20px;
+        width: 35%;
+        margin-right: 0;
+    }
+
+    .wrapper-filter {
+        display: flex;
+        justify-content: center;
     }
 
     .product {
@@ -102,6 +119,12 @@
         background: linear-gradient(45deg, rgb(255, 135, 0) 43%, rgb(255, 0, 0) 100%);
     }
 
+}
+
+@media (max-width: 660px) {
+    .filter {
+        width: 50%;
+    }
 }
 
 @media (max-width: 555px) {
@@ -171,6 +194,10 @@
 
     .nav a {
         font-size: 12px;
+    }
+
+    .filter {
+        width: 80%;
     }
 
     .product {

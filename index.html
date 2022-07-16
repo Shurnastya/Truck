@@ -42,34 +42,38 @@
                         <button class="btn-filter">Filter</button>
                     </div>
 
-                    <div class="filter">
-                        <form action="" id="filter-model">
-                            <input type="text" id="inp-model" placeholder="Enter to model...">
-                            <button type="submit" class="search">Search</button>
-                        </form>
+                    <div class="wrapper-filter">
+                        <div class="filter">
+                            <form action="" id="filter-model">
+                                <input type="text" id="inp-model" placeholder="Enter to model...">
+                                <button type="submit" class="search">Search</button>
+                            </form>
 
-                        <div class="wrapper-radio">
-                            <p>Сhoose a year:</p>
-                            <div class="radio-input-container">
-                                <input type="radio" name="call-back" class="radio-input input-r" id="radio-1">
-                                <label class="radio-label" for="radio-1">2005-2010</label>
+                            <div class="wrapper-radio">
+                                <p>Сhoose a year:</p>
+                                <div class="radio-input-container">
+                                    <input type="radio" name="call-back" class="radio-input input-r" id="radio-1">
+                                    <label class="radio-label" for="radio-1">2005-2010</label>
+                                </div>
+                                <div class="radio-input-container">
+                                    <input type="radio" name="call-back" class="radio-input input-r" id="radio-2">
+                                    <label class="radio-label" for="radio-2">2011-2016</label>
+                                </div>
+                                <div class="radio-input-container">
+                                    <input type="radio" name="call-back" class="radio-input input-r" id="radio-3">
+                                    <label class="radio-label" for="radio-3">2017-2022</label>
+                                </div>
                             </div>
-                            <div class="radio-input-container">
-                                <input type="radio" name="call-back" class="radio-input input-r" id="radio-2">
-                                <label class="radio-label" for="radio-2">2011-2016</label>
-                            </div>
-                            <div class="radio-input-container">
-                                <input type="radio" name="call-back" class="radio-input input-r" id="radio-3">
-                                <label class="radio-label" for="radio-3">2017-2022</label>
-                            </div>
+                    
+
+                            <form action="" id="filter-price">
+                                <p>Price</p>
+                                <input type="text" id="inp-price" placeholder="min">
+                                <input type="text" id="inp-price" placeholder="max">
+                            </form>
+
+                            <div class="close" id="close">&#10006</div>
                         </div>
-
-                        <form action="" id="filter-price">
-                            <p>Price</p>
-                            <input type="text" id="inp-price" placeholder="min">
-                            <input type="text" id="inp-price" placeholder="max">
-                        </form>
-                        
                     </div>
                     <div class="product"></div>
                 </section>

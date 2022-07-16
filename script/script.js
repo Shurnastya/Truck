@@ -45,3 +45,20 @@ async function getResponse() {
     
 }
 getResponse();
+
+function filter() {
+    let btn = document.querySelector('.btn-filter');
+    let filter = document.querySelector('.filter');
+    let close = document.querySelector('.close');
+
+    btn.addEventListener ('click', () => {
+        filter.style.display = "block";
+    });
+
+    close.addEventListener ('click', () => {
+        filter.style.display = "none";
+    });
+
+}
+
+filter();
